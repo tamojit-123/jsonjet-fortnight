@@ -4,7 +4,7 @@ import cors from 'cors';
 import path from 'path'; // Import the path module to work with file paths
 import fs from 'fs';     // Import the fs module to read files
 import {fileURLToPath} from 'url';
-import {PARAMS, PORT} from "./src/constant.js";
+import {PARAMS, PORT} from "./src/constants.js";
 
 const app = express();
 const port = PORT;
