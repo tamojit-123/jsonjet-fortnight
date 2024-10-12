@@ -1,4 +1,4 @@
-// server.js
+// server.mjs
 import express from 'express';
 import cors from 'cors';
 import path from 'path'; // Import the path module to work with file paths
