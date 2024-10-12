@@ -1,3 +1,11 @@
 [build]
-command = "npm run build" # The command to build the app
-publish = "dist"         # The folder where the built files are located
+command = "npm run build"
+publish = "build"  # If you're also hosting a frontend, or set to empty if no frontend
+
+[functions]
+directory = "netlify/functions"  # Where the serverless functions are located
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
