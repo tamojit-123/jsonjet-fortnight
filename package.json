@@ -7,6 +7,7 @@
     "build:prod": "webpack --mode=production --config webpack.config.js",
     "start": "nodemon dist/server.bundle.js --watch dist",
     "dev:start": "node server.js",
+    "netlify:start": "node netlify/functions/entry.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

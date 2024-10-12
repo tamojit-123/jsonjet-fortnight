@@ -4,7 +4,13 @@ const path = require('path');
 exports.handler = async (event) => {
     const query = event.queryStringParameters;
 
-    const fileName = query.hello ? 'hello.json' : query.hi ? 'hi.json' : null;
+    let fileName;
+    const queryKey = Object.keys(query)[0];
+    if (["users"].includes(queryKey)) {
+        const queryValue = Object.values(query)[0];
+        // Read the query parameter (e.g., ?hello or ?hi)
+        fileName = (query && queryKey) ? `${queryValue}.json` : null;
+    }
 
     if (!fileName) {
         return {
