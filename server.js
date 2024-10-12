@@ -1,4 +1,4 @@
-// server.cjs
+// server.js
 import express from 'express';
 import cors from 'cors';
 import path from 'path'; // Import the path module to work with file paths
