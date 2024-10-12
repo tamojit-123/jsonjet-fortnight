@@ -10,8 +10,8 @@ const app = express();
 const port = PORT;
 
 // import.meta.url and path module: You can create a workaround to define __dirname in ES modules using import.meta.url and the path module
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Enable CORS
 app.use(cors());
