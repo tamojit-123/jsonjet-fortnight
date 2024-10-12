@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "build"  # If you're also hosting a frontend, or set to empty if no frontend
+publish = "dist"  # If you're also hosting a frontend, or set to empty if no frontend
 
 [functions]
 directory = "netlify/functions"  # Where the serverless functions are located
