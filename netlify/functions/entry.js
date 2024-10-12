@@ -8,7 +8,6 @@ exports.handler = async (event) => {
     const queryKey = Object.keys(query)[0];
     if (["users"].includes(queryKey)) {
         const queryValue = Object.values(query)[0];
-        // Read the query parameter (e.g., ?hello or ?hi)
         fileName = (query && queryKey) ? `${queryValue}.json` : null;
     }
 
