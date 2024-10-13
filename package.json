@@ -1,6 +1,6 @@
 {
   "name": "react-express-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -8,7 +8,6 @@
     "build:prod": "webpack --mode=production --config webpack.config.js",
     "start": "nodemon dist/server.bundle.js --watch dist",
     "dev:start": "nodemon server.js",
-    "netlify:start": "node netlify/functions/entry.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
