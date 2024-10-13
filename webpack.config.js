@@ -3,7 +3,7 @@ const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-    entry: './server.mjs', // Entry point for your server application
+    entry: './server.js', // Entry point for your server application
     target: 'node', // Specify that we're bundling for Node.js
     externals: [nodeExternals()], // Ignore `node_modules` in the bundle
     devtool: 'source-map',
