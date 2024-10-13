@@ -5,6 +5,7 @@ import path from 'path'; // Import the path module to work with file paths
 import fs from 'fs';     // Import the fs module to read files
 import {fileURLToPath} from 'url';
 import {PARAMS, PORT, SERVER_STATUS} from "./src/constants.js";
+import {createFileWithExtensions} from "function-ninja";
 
 const app = express();
 const port = PORT;
@@ -52,12 +53,6 @@ app.get('/mocks', (request, response) => {
         });
     });
 });
-
-const createFileWithExtensions = (file, extension) => {
-    const newName = file.replace(/\//g, "");  // Removes all "/"
-    const fileName = (file && newName) ? `${newName}.${extension}` : "";
-    return fileName;
-}
 
 app.get('/users', (request, response) => {
 
