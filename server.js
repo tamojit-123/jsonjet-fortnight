@@ -5,6 +5,7 @@ import path from 'path'; // Import the path module to work with file paths
 import fs from 'fs';     // Import the fs module to read files
 import {fileURLToPath} from 'url';
 import {PARAMS, PORT, SERVER_STATUS} from "./src/constants.js";
+import {createFileWithExtensions} from "function-ninja";
 
 const app = express();
 const port = PORT;
@@ -12,12 +13,6 @@ const port = PORT;
 // import.meta.url and path module: You can create a workaround to define __dirname in ES modules using import.meta.url and the path module
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const createFileWithExtensions = (file, extension) => {
-    const newName = file.replace(/\//g, "");  // Removes all "/"
-    const fileName = (file && newName) ? `${newName}.${extension}` : "";
-    return fileName;
-}
 
 // Enable CORS
 app.use(cors());
