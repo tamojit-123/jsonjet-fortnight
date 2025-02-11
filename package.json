@@ -1,6 +1,6 @@
 {
   "name": "react-express-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -15,11 +15,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "function-ninja": "^1.0.1",
+    "https": "^1.0.0",
     "path": "^0.12.7",
+    "prettier": "^3.5.0",
     "serverless-http": "^3.2.0",
     "url": "^0.11.4",
     "vercel": "^37.8.0"
