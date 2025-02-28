@@ -84,7 +84,7 @@ The backend serves different JSON files through query parameters, while the fron
 | [package-lock.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/package-lock.json) | <code>❯ REPLACE-ME</code> |
 | [vercel.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/vercel.json) | <code>❯ REPLACE-ME</code> |
 | [package.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/package.json) | <code>❯ REPLACE-ME</code> |
-| [server.js](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/server.js) | <code>❯ REPLACE-ME</code> |
+| [server.cjs](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/server.js) | <code>❯ REPLACE-ME</code> |
 | [webpack.config.js](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/webpack.config.js) | <code>❯ REPLACE-ME</code> |
 
 </details>
