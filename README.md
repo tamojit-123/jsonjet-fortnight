@@ -1,6 +1,6 @@
 # `JSONJET-FORTNIGHT`
 
-#### <code>`JSONJET-FORTNIGHT` is a full-stack application with a React frontend and an Express backend serving as a JSON API.</code>
+#### <code>`JSONJET-FORTNIGHT` is a server or proxy application with a React frontend and an Express backend serving as a JSON API.</code>
 
 <p align="left">
 	<img src="https://img.shields.io/github/license/tamojit-123/jsonjet-fortnight?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
