@@ -8,6 +8,7 @@
     "build:prod": "webpack --mode=production --config webpack.config.js",
     "start": "nodemon dist/server.bundle.js --watch dist",
     "dev:start": "nodemon server.js",
+    "api:server": "nodemon src/_api-server/server.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,9 +16,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.22.0",
     "axios": "^1.7.9",
     "chalk": "^5.4.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "function-ninja": "^1.0.1",

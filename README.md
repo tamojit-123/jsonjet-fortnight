@@ -1,6 +1,6 @@
 # `JSONJET-FORTNIGHT`
 
-#### <code>`JSONJET-FORTNIGHT` is a full-stack application with a React frontend and an Express backend serving as a JSON API.</code>
+#### <code>`JSONJET-FORTNIGHT` is a server or proxy application with a React frontend and an Express backend serving as a JSON API.</code>
 
 <p align="left">
 	<img src="https://img.shields.io/github/license/tamojit-123/jsonjet-fortnight?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -84,7 +84,7 @@ The backend serves different JSON files through query parameters, while the fron
 | [package-lock.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/package-lock.json) | <code>❯ REPLACE-ME</code> |
 | [vercel.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/vercel.json) | <code>❯ REPLACE-ME</code> |
 | [package.json](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/package.json) | <code>❯ REPLACE-ME</code> |
-| [server.js](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/server.js) | <code>❯ REPLACE-ME</code> |
+| [server.cjs](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/server.js) | <code>❯ REPLACE-ME</code> |
 | [webpack.config.js](https://github.com/tamojit-123/jsonjet-fortnight/blob/main/webpack.config.js) | <code>❯ REPLACE-ME</code> |
 
 </details>
